@@ -1,4 +1,19 @@
-# WidgetsDashboard
+# WidgetsDashboard 
+Angular fundamentals project
+
+# Resources: 
+- [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Bootstrap icons](https://icons.getbootstrap.com/)
+- [Angular documentation](https://angular.io/docs)
+- [TypeScript documentation](https://www.typescriptlang.org/docs/)
+- [RxJS documentation](https://rxjs.dev/guide/overview)
+
+## APIs
+
+- [Weather](https://open-meteo.com/en/docs)
+- [Countries](https://restcountries.com/)
+- [Crypto](https://docs.coincap.io/)
+- [Chuck Norris Jokes](https://api.chucknorris.io/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
 
