@@ -1,0 +1,8 @@
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  & > * {
+    width: clamp(min(100%, 20rem), 75%, 50rem);
+  }
+}

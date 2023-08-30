@@ -1,0 +1,7 @@
+<div class="mb-4 p-3 widget bg-white rounded-4 shadow">
+  <h2 class="mb-3">{{ widgetData.title }}</h2>
+  <p class="mb-3">{{ widgetData.details }}</p>
+  <ul class="m-0 p-0 d-flex flex-column">
+    <li class="card px-2 py-1" *ngFor="let item of list">{{ item }}</li>
+  </ul>
+</div>

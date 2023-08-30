@@ -3,16 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GridComponent } from './grid/grid.component';
+import { SingleComponent } from './single/single.component';
+import { WidgetTemplateComponent } from './widgets/widget-template/widget-template.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GridComponent,
+    SingleComponent,
+    WidgetTemplateComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
